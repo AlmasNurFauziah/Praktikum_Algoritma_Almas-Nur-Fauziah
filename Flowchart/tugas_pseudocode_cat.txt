@@ -1,0 +1,19 @@
+{Program Untuk Menghitung Luas Tembok dan Total Biaya Pengecatan}
+
+KAMUS DATA:
+Panjang (p): real
+Tinggi (t) : real
+Harga_cat  : real
+Luas (L)   : real
+Total_biaya: real
+
+ALGORITMA:
+read(Panjang)
+read(tinggi)
+read(harga_cat)
+
+luas <- panjang * tinggi
+total_biaya <- luas * harga_cat
+
+write(luas)
+write(total_biaya)
