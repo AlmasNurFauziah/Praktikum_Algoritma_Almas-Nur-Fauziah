@@ -1,0 +1,14 @@
+{Program mengubah suhu derajat celsiu menjadi Fahrenheit (F)}
+
+KAMUS DATA:
+Suhu_derajat_celcius: real
+Hasil_konversi      : real
+
+ALGORITMA:
+read(suhu_derajat_celcius)
+{Rumus Fahrenheit: F = (C * 9/5) + 32}
+
+Hasil_konversi <- (Suhu_derajat_celcius * 9/5) + 32
+
+write(Hasil_konversi)
+
