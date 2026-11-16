@@ -1,4 +1,4 @@
-{Program mengubah suhu derajat celsiu menjadi Fahrenheit (F)}
+{Program mengubah suhu derajat celcius menjadi Fahrenheit (F)}
 
 KAMUS DATA:
 Suhu_derajat_celcius: real
