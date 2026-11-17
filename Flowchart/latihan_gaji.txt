@@ -1,0 +1,24 @@
+PROGRAM penggajian_karyawan
+
+KAMUS DATA:
+ Nama_karyawan     : string
+ Gaji_pokok        : integer
+ Tunjangan         : real
+ Total_pendapatan  : real
+ Pajak             : real
+ Gaji_bersih       : integer
+
+ALGORITMA:
+ input(Nama_karyawan)
+ input(Gaji_pokok)
+ 
+ Tunjangan <-- gaji_pokok = 20/100
+ Pajak <-- Total_pendapatan = 10/100
+ Gaji_bersih <-- Total_pendapatan - Pajak
+
+ output(Nama_karyawan)
+ output(Gaji_pokok)
+ output(Tunjangan)
+ output(Total_pendapatan)
+ output(Pajak)
+ output(Gaji_bersih)
