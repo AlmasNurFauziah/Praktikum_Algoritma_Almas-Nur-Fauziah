@@ -1,0 +1,24 @@
+PROGRAM Split_Bill
+
+KAMUS:
+ Nama_Perwakilan     : string
+ Total_Harga_Makanan : real
+ Jumlah_Orang        : integer
+ Pajak               : real
+ Service_Charge      : real
+ Total_Bayar_Akhir   : real
+ Tagihan_Per_Orang   : real
+
+ALGORITMA:
+ read(Nama_Perwakilan)
+ read(Total_Harga_Makanan)
+ read(Jumlah_Orang)
+
+ Pajak <- Total_Harga_Makanan * 0.11
+ Service_Charge <- Total_Harga_Makanan * 0.05
+ Total_Bayar_Akhir <- Total_Harga_Makanan + Pajak + Service_Charge
+ Tagihan_Per_Orang <- Total_Bayar_Akhir / Jumlah_Orang
+
+ write(Nama_Perwakilan)
+ write(Total_Bayar_Akhir)
+ write(Tagihan_Per_Orang)
